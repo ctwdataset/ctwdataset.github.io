@@ -68,12 +68,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</div>
 				</div>
 				<div class="col-md-8">
-					<h1 class="text-center" style="margin-top: 18px;">Chinese Text in the Wild</h1>
-					<p class="text-center">Tai-Ling Yuan, Zhe Zhu, Kun Xu, Cheng-Jun Li, Shi-Min Hu</p>
+					<h1 class="text-center" style="margin-top: 18px;">A Large Chinese Text Dataset in the Wild</h1>
+					<p class="text-center">Tai-Ling Yuan, Zhe Zhu, Kun Xu, Cheng-Jun Li, Tai-Jiang Mu and Shi-Min Hu</p>
 				</div>
 			</div>
 			<div class="container">
-				<p style="margin-top: 15px;">In this paper we provide details of a newly created dataset of Chinese text with about 1 million Chinese characters annotated by experts in over 30 thousand street view images. This is a challenging dataset with good diversity. It contains planar text, raised text, text in cities, text in rural areas, text under poor illumination, distant text, partially occluded text, etc. For each character in the dataset, the annotation includes its underlying character, its bounding box, and 6 attributes. The attributes indicate whether it has complex background, whether it is raised, whether it is handwritten or printed, etc.</p>
+				<p style="margin-top: 15px;">In this paper, we introduce a very large Chinese text dataset in the wild. While optical character recognition (OCR) in document images is well studied and many commercial tools are available, the detection and recognition of text in natural images is still a challenging problem, especially for some more complicated character sets such as Chinese text. Lack of training data has always been a problem, especially for deep learning methods which require massive training data. In this paper, we provide details of a newly created dataset of Chinese text with about 1 million Chinese characters from 3850 unique ones annotated by experts in over 30000 street view images. This is a challenging dataset with good diversity containing planar text, raised text, text under poor illumination, distant text, partially occluded text, etc. Besides the dataset, we give baseline results using state-of-the-art methods for three tasks: character recognition (top-1 accuracy of 80.5%), character detection (AP of 70.9%), and text line detection (AED of 22.1). The dataset, source code, and trained models are publicly available.</p>
 				<div class="row">
 					<div class="col-md-6">
 						<ul style="list-style: none;">
@@ -144,8 +144,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 				<h4 style="margin-top: 10px;">Files</h4>
 				<ul style="list-style: none;">
-					<li><a href="http://arxiv.org/abs/1803.00085"><span class="ion-ios-download-outline" style="margin-right: 1ex;"></span>Paper</a></li>
-					<li><a href="https://1drv.ms/b/s!Al-inEPeCzeQgZht6wOU98u30-Fk2A"><span class="ion-ios-download-outline" style="margin-right: 1ex;"></span>Supplementary materials</a></li>
+					<li><a href="http://jcst.ict.ac.cn/EN/10.1007/s11390-019-1923-y"><span class="ion-ios-download-outline" style="margin-right: 1ex;"></span>Paper</a></li>
+					<li><a href="https://1drv.ms/b/s!Al-inEPeCzeQgat9X4bO5FYqMLAPVg?e=llCWLA"><span class="ion-ios-download-outline" style="margin-right: 1ex;"></span>Supplementary materials</a></li>
 					<li><a href="downloads.html"><span class="ion-ios-download-outline" style="margin-right: 1ex;"></span>Dataset</a></li>
 					<li><a href="https://github.com/yuantailing/ctw-baseline"><span class="ion-ios-download-outline" style="margin-right: 1ex;"></span>Baseline code</a></li>
 					<li><a href="downloads.html"><span class="ion-ios-download-outline" style="margin-right: 1ex;"></span>Trained models</a></li>
@@ -160,16 +160,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<h4 style="margin-top: 10px;">Contact</h4>
 				<div style="margin: 0 30px 0 30px;">
 					<p><span class="ion-email" style="margin-right: 1ex;"></span>If you have any questions about the dataset or code, please contact Tai-Ling Yuan (yuantailing[at]gmail.com).</p>
-					<!--p><span class="ion-compose" style="margin-right: 1ex;"></span>Please cite CTW dataset in your publications if it helps your research:</p>
-					<pre>@article{yuan2018chinese,
-  title={Chinese Text in the Wild},
-  author={Yuan, Tai-Ling and Zhu, Zhe and Xu, Kun and Li, Cheng-Jun and Hu, Shi-Min},
-  journal={arXiv preprint arXiv:1803.00085},
-  year={2018}
-}</pre-->
+					<p><span class="ion-compose" style="margin-right: 1ex;"></span>Bibtex:</p>
+					<pre>@article{yuan2019large,
+  author  = {Tai{-}Ling Yuan and Zhe Zhu and Kun Xu and Cheng{-}Jun Li and Tai{-}Jiang Mu and Shi{-}Min Hu},
+  title   = {A Large Chinese Text Dataset in the Wild},
+  journal = {Journal of Computer Science and Technology},
+  volume  = {34},
+  number  = {3},
+  pages   = {509--521},
+  year    = {2019},
+}</pre>
 				</div>
 				<h4 style="margin-top: 10px;">Change Log</h4>
 				<ul>
+					<li><span style="font-family: SFMono-Regular,Menlo,Monaco,Consolas;">06/17/2019 (GMT+8):</span> replace the paper with <i>A Large Chinese Text Dataset in the Wild</i></li>
 					<li><span style="font-family: SFMono-Regular,Menlo,Monaco,Consolas;">07/04/2018 (GMT+8):</span> dataset moved to OneDrive</li>
 					<li><span style="font-family: SFMono-Regular,Menlo,Monaco,Consolas;">03/17/2018 (GMT+8):</span> evaluation server available</li>
 					<li><span style="font-family: SFMono-Regular,Menlo,Monaco,Consolas;">03/15/2018 (GMT+8):</span> dataset released on WeiYun and Google Drive</li>
